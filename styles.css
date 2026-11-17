@@ -9,21 +9,28 @@
 @media(max-width:1030px){.navlinks{gap:12px}.navlinks a{font-size:11px}.brand img{width:145px}.section-grid{gap:30px}.hero-copy{width:52%}}
 @media(max-width:770px){.container{width:calc(100% - 34px)}.nav-inner{height:68px;gap:10px}.brand img{width:138px;height:55px}.mobile-menu{display:block}.navlinks{display:none;position:absolute;right:0;left:0;top:68px;padding:17px 22px;background:var(--wine);box-shadow:0 12px 25px #20061344;flex-direction:column;align-items:flex-start;z-index:95}.navlinks.open{display:flex}.lang{margin-inline-start:auto}.hero{display:flex;flex-direction:column;min-height:0}.hero-visual{position:relative;height:260px}.hero-visual:after{display:none}.hero-inner{min-height:0;padding:24px 0 37px}.hero-copy{width:100%;max-width:none}.hero h1{font-size:44px}.hero h2{font-size:24px}.fact-grid{grid-template-columns:1fr 1fr}.fact{border-left:0;border-bottom:1px solid var(--border);justify-content:flex-start;padding:16px 8px;min-height:85px}.section{padding:55px 0}.section-grid,.strategic-grid{grid-template-columns:1fr;gap:30px}.about-visual img{height:265px}.services,.records{grid-template-columns:1fr}.value-grid{gap:15px}.contact-inner{flex-direction:column;text-align:center}.footer-inner{flex-direction:column;text-align:center}.footer-brand{flex-direction:column;gap:3px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.to-top{transition:none}}
-/* 2026 sales and portfolio enhancements */
-.sectors{background:#fff}.sector-gallery{display:grid;grid-template-columns:1.35fr 1fr 1fr;gap:16px}.sector-tile{margin:0;border-radius:13px;overflow:hidden;position:relative;min-height:300px;background:#eee;box-shadow:0 8px 24px #3e0f2015}.sector-tile img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transition:transform .35s ease}.sector-tile:hover img{transform:scale(1.035)}.sector-tile:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#250b19dc,transparent 63%)}.sector-tile figcaption{z-index:1;position:absolute;bottom:0;right:0;left:0;color:#fff;padding:24px}.sector-tile figcaption strong{display:block;font-size:19px;font-weight:900}.sector-tile figcaption span{display:block;font-size:12px;color:#f3dce3}.sector-wide{min-height:310px}.strategic-note{color:#edcad5!important;border-right:2px solid #f1b5c7;padding-right:15px;font-size:12px!important;margin-top:20px}
-@media(max-width:900px){.sector-gallery{grid-template-columns:1fr 1fr}.sector-wide{grid-column:span 2;min-height:280px}.sector-tile{min-height:230px}}
-@media(max-width:620px){.sector-gallery{grid-template-columns:1fr}.sector-wide{grid-column:auto}.sector-tile,.sector-wide{min-height:230px}.sector-tile figcaption{padding:20px}}
-
-/* Visual storytelling and conversion improvements — 2026-11 */
-.hero{min-height:525px}.hero-inner{min-height:525px}.hero-copy{max-width:540px}.hero-lead{font-size:16px}
-.section-heading{max-width:800px}
-.sectors{background:#fff}.sector-gallery{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:18px;margin-top:26px}.sector-tile{margin:0;border-radius:13px;position:relative;overflow:hidden;min-height:275px;background:#eee4e4;box-shadow:0 12px 25px #3e0f2015}.sector-tile img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transition:transform .35s}.sector-tile:hover img{transform:scale(1.04)}.sector-tile:after{content:"";position:absolute;inset:25% 0 0;background:linear-gradient(0deg,#240b19df,transparent)}.sector-tile figcaption{position:absolute;bottom:0;right:0;left:0;padding:22px;color:white;z-index:1}.sector-tile strong{font-size:18px;display:block}.sector-tile span{font-size:12px;display:block;color:#f3e7ea}.strategic-note{font-size:12px!important;color:#e7bdcb!important;border-right:2px solid #e3aac0;padding-right:13px;margin-top:18px}.strategic-features div{background:#ffffff0d;backdrop-filter:blur(4px)}.contact-section{border-top:1px solid var(--border)}.whatsapp-icon{transition:transform .2s}.whatsapp-icon:hover{transform:translateY(-2px)}
-@media(max-width:770px){.hero{min-height:unset}.hero-inner{min-height:unset}.sector-gallery{grid-template-columns:1fr}.sector-tile{min-height:250px}.sector-wide{min-height:280px}.strategic-note{border-right-width:2px}}
-@media(prefers-reduced-motion:reduce){.sector-tile img,.whatsapp-icon{transition:none}}
-
 /* Conversion and discoverability improvements */
 .service-matrix{background:#f7f1ee}.subservice-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.subservice-grid>div{background:#fff;border:1px solid var(--border);border-radius:13px;padding:22px;box-shadow:0 4px 18px #3e0f2010}.subservice-grid h3{margin:0 0 8px;color:var(--wine);font-size:17px}.subservice-grid p{margin:0;font-size:12px;line-height:2.15}.faq{background:#fff}.faq-items{max-width:880px;margin:auto}.faq-items details{border:1px solid var(--border);background:#fff;border-radius:10px;padding:16px 20px;margin:12px 0}.faq-items summary{cursor:pointer;color:var(--wine);font-weight:800;font-size:14px}.faq-items details p{font-size:12px;line-height:2.1;color:var(--muted);padding-top:8px}.faq-items summary:focus-visible{outline:2px solid var(--wine);outline-offset:3px}
 section[id]{scroll-margin-top:85px}
 img{height:auto}
 @media(max-width:980px){.subservice-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.subservice-grid{grid-template-columns:1fr}.subservice-grid>div{padding:18px}}
+
+/* Final readability and accessibility refinements */
+.skip-link{position:fixed;right:12px;top:-90px;z-index:200;background:#fff;color:var(--wine);padding:11px 16px;border-radius:7px;font-size:13px;font-weight:800}
+.skip-link:focus{top:12px}
+#main{outline:none}
+.navlinks a:focus-visible,.whatsapp-icon:focus-visible,.to-top:focus-visible{outline:3px solid #eea0b7;outline-offset:4px}
+.hero-lead{max-width:520px}
+.service-matrix .section-heading{margin-bottom:28px}
+.subservice-grid>div{transition:transform .2s,box-shadow .2s}
+.subservice-grid>div:hover{transform:translateY(-3px);box-shadow:0 12px 26px #3e0f201b}
+.faq-items details[open]{border-color:#c99baa;background:#fffdfd}
+.contact-section .whatsapp-icon{min-width:66px;min-height:66px}
+@media(max-width:770px){
+ .hero-lead{font-size:15px;line-height:2.05}
+ .section-heading{margin-bottom:20px}
+ .subservice-grid>div:hover{transform:none}
+ .navlinks{max-height:calc(100vh - 68px);overflow-y:auto}
+}
+@media(prefers-reduced-motion:reduce){.subservice-grid>div{transition:none}}
