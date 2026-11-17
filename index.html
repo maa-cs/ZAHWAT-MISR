@@ -3,73 +3,58 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="زهوة مصر للإنشاءات والتوريدات العمومية — شركة مصرية تأسست عام 2022." />
+  <meta name="description" content="زهوة مصر للإنشاءات والتوريدات العمومية — شركة مصرية ذات مسؤولية محدودة تأسست عام 2022، بأنشطة مسجلة في الإنشاءات والتوريدات والخدمات الهندسية.">
   <title>زهوة مصر | للإنشاءات والتوريدات العمومية</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/favicon.png"><meta name="theme-color" content="#591325"><meta property="og:title" content="زهوة مصر | للإنشاءات والتوريدات العمومية"><meta property="og:description" content="أنشطة الإنشاءات والتوريدات والخدمات الهندسية، مع إتاحة التواصل بشأن فرص التعاون."><meta property="og:image" content="https://mashraf1990.github.io/ZAHWAT-MISR/assets/hero-building.webp"><link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div class="topbar">
-      <div class="topbar-decor" aria-hidden="true"></div>
-      <div class="container topbar-inner">
-        <a class="top-cta" href="#contact" aria-label="تواصل معنا الآن للاستفسار وطلب ملف الشركة">
-          <span class="send-icon" aria-hidden="true">➤</span>
-          <span><strong>تواصل معنا الآن</strong><small>للاستفسار وطلب ملف الشركة</small></span>
-        </a>
-        <div class="top-detail"><span class="icon">◉</span><span>مصر</span></div>
-        <a class="top-detail" href="mailto:info@zahwatmisr.com"><span class="icon">✉</span><span dir="ltr">info@zahwatmisr.com</span></a>
-        <span class="top-detail"><span class="icon">◉</span><span dir="ltr">+20 xxx xxx xxxx</span></span>
-      </div>
-    </div>
-    <nav class="navbar" aria-label="القائمة الرئيسية">
-      <div class="container nav-inner">
-        <a href="#home" class="brand" aria-label="زهوة مصر - الرئيسية"><img src="assets/logo.png" alt="ZAHWAT MISR Construction & Supplies" /></a>
-        <button class="mobile-menu" id="menuButton" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="فتح القائمة">☰</button>
-        <div class="navlinks" id="navLinks">
-          <a class="active" href="#home">الرئيسية</a>
-          <a href="#about">من نحن</a>
-          <a href="#activities">مجالات النشاط</a>
-          <a href="#registrations">التسجيلات والتصنيفات</a>
-          <a href="#import">فرصة الاستحواذ</a>
-          <a href="#contact">تواصل معنا</a>
-        </div>
-        <div class="lang"><button id="arButton" class="selected" type="button" aria-pressed="true">AR</button><span></span><button id="enButton" type="button" aria-pressed="false">EN</button></div>
-      </div>
+  <header class="site-header" id="site-header">
+  <div class="container nav-inner">
+    <a class="brand" href="#home" aria-label="زهوة مصر، الصفحة الرئيسية"><img src="assets/zahwat-misr-logo.png" alt="ZAHWAT MISR Construction & Supplies" width="168" height="65"></a>
+    <nav class="navlinks" id="navLinks" aria-label="القائمة الرئيسية">
+      <a href="#home" data-en="Home">الرئيسية</a><a href="#about" data-en="About">من نحن</a><a href="#activities" data-en="Services">الخدمات والأنشطة</a><a href="#registrations" data-en="Registrations">التسجيلات</a><a href="#strategic" data-en="Opportunities">فرص استراتيجية</a><a href="#contact" data-en="Contact">تواصل معنا</a>
     </nav>
-  </header>
+    <div class="lang" role="group" aria-label="Language"><button id="arButton" class="selected" type="button" aria-pressed="true">AR</button><button id="enButton" type="button" aria-pressed="false">EN</button></div>
+    <button class="mobile-menu" id="menuButton" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="فتح القائمة">☰</button>
+  </div>
+</header>
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-image" role="img" aria-label="مقر شركة زهوة مصر للإنشاءات والتوريدات"></div>
-      <div class="hero-wash"></div>
-      <div class="container hero-inner">
-        <div class="hero-copy">
-          <h1>زهوة مصر</h1>
-          <h2>للإنشاءات والتوريدات العمومية</h2>
-          <p>شركة مصرية ذات مسؤولية محدودة (LLC)<br />تأسست عام 2022، تعمل في مجالات الإنشاءات<br class="desktop-only" /> والتوريدات والاستشارات الهندسية.</p>
-          <div class="hero-actions"><a class="btn primary" href="#import">فرصة الاستحواذ <span aria-hidden="true">⌁</span></a><a class="btn secondary" href="#about">عن الشركة <span aria-hidden="true">←</span></a></div>
-        </div>
-      </div>
-    </section>
-    <section class="fact-strip" aria-label="معلومات الشركة">
-      <div class="container fact-grid">
-        <div class="fact"><span class="fact-icon">▦</span><span>سنة التأسيس<strong>2022</strong></span></div>
-        <div class="fact"><span class="fact-icon">▥</span><span>شركة ذات<strong>مسؤولية محدودة</strong></span></div>
-        <div class="fact"><span class="fact-icon">✿</span><span>تسجيل ضريبي<strong>ضريبة القيمة المضافة</strong></span></div>
-        <div class="fact"><span class="fact-icon">◈</span><span>تصنيفات مهنية<strong>فئة سابعة</strong></span></div>
-      </div>
-    </section>
+  <div class="hero-visual"><img src="assets/hero-building.webp" alt="تصوير معماري توضيحي، لا يمثل مقر الشركة أو مشروعًا نفذته" fetchpriority="high" width="1200" height="675"><span>صورة توضيحية للقطاع وليست مقرًا للشركة</span></div>
+  <div class="container hero-inner"><div class="hero-copy"><p class="hero-tag">شركة مصرية ذات مسؤولية محدودة • منذ 2022</p><h1>زهوة مصر</h1><h2>للإنشاءات والتوريدات العمومية</h2><p class="hero-lead">أنشطة مسجلة في مجالات التوريدات والإنشاءات والخدمات الهندسية، بهوية مؤسسية واضحة ورؤية للتعاون والنمو.</p></div></div>
+</section>
+    <section class="fact-strip" aria-label="معلومات الشركة"><div class="container fact-grid">
+<div class="fact"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span><strong>2022</strong>سنة التأسيس</span></div>
+<div class="fact"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V5l8-3 8 3v16M9 21v-7h6v7M4 9h16"/></svg><span><strong>شركة ذات مسؤولية محدودة</strong>الشكل القانوني</span></div>
+<div class="fact"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 16l8-8M8.5 8.5h.01M15.5 15.5h.01"/></svg><span><strong>تسجيل ضريبي</strong>شهادة ضريبة القيمة المضافة</span></div>
+<div class="fact"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 9 5-9 5-9-5 9-5ZM3 12l9 5 9-5M3 16l9 5 9-5"/></svg><span><strong>فئة سابعة*</strong>تصنيفات مهنية معلنة</span></div>
+</div></section>
 
-    <section class="section" id="about"><div class="container section-grid"><div><p class="eyebrow">عن الشركة</p><h2>شريككم في الإنشاءات والتوريدات</h2><p>زهوة مصر شركة مصرية ذات مسؤولية محدودة تأسست عام 2022، وتعمل في مجالات الإنشاءات والتوريدات العمومية والاستشارات الهندسية.</p></div><div class="info-panel"><h3>زهوة مصر</h3><p>Construction & Supplies</p><span>تأسست في مصر • 2022</span></div></div></section>
-    <section class="section section-muted" id="activities"><div class="container"><p class="eyebrow">خبراتنا</p><h2>مجالات النشاط</h2><div class="services"><article><div class="service-icon">▤</div><h3>الإنشاءات</h3><p>حلول وخدمات في مجال أعمال الإنشاءات.</p></article><article><div class="service-icon">▣</div><h3>التوريدات العمومية</h3><p>توفير احتياجات المشروعات من المواد والمستلزمات.</p></article><article><div class="service-icon">⌁</div><h3>الاستشارات الهندسية</h3><p>خدمات واستشارات تدعم مراحل المشروعات.</p></article></div></div></section>
-    <section class="section" id="registrations"><div class="container"><p class="eyebrow">التسجيلات والتصنيفات</p><h2>البيانات المؤسسية</h2><div class="records"><div><strong>2022</strong><span>سنة التأسيس</span></div><div><strong>LLC</strong><span>المسؤولية القانونية</span></div><div><strong>VAT</strong><span>التسجيل في ضريبة القيمة المضافة</span></div><div><strong>7</strong><span>الفئة المهنية بحسب المرجع المرفق</span></div></div></div></section>
-    <section class="section section-muted opportunity" id="import"><div class="container"><p class="eyebrow">فرصة الاستحواذ</p><h2>اكتشف فرصة الاستحواذ على الشركة</h2><p>لطلب ملف الشركة والتفاصيل المتاحة، يُرجى التواصل معنا مباشرة.</p><a class="btn primary" href="#contact">اطلب ملف الشركة ←</a></div></section>
-    <section class="section contact-section" id="contact"><div class="container contact-layout"><div><p class="eyebrow">تواصل معنا</p><h2>تواصل معنا الآن</h2><p>للاستفسار وطلب ملف الشركة، تواصل مع فريق زهوة مصر عبر البريد الإلكتروني.</p><a class="btn primary" href="mailto:info@zahwatmisr.com?subject=طلب%20ملف%20شركة%20زهوة%20مصر">طلب ملف الشركة <span aria-hidden="true">➤</span></a></div><div class="contact-panel"><h3>بيانات التواصل</h3><p><strong>الموقع:</strong> مصر</p><p><strong>البريد:</strong> <a href="mailto:info@zahwatmisr.com" dir="ltr">info@zahwatmisr.com</a></p><p><strong>الهاتف:</strong> <span dir="ltr">+20 xxx xxx xxxx</span></p><small>استبدل رقم الهاتف التجريبي بالرقم الرسمي قبل النشر.</small></div></div></section>
+    <section class="section about" id="about"><div class="container section-grid">
+<div class="about-copy"><p class="eyebrow">من نحن</p><h2>هوية مؤسسية تجمع بين الوضوح والطموح</h2><p>تأسست شركة زهوة مصر للإنشاءات والتوريدات العمومية في عام 2022 كشركة ذات مسؤولية محدودة، وتشمل أنشطتها المسجلة المقاولات والتوريدات العمومية والاستشارات الهندسية.</p><p>تُقدم الشركة نطاق أنشطتها ومعلوماتها المؤسسية بصورة منظمة للجهات الراغبة في التعرف على الشركة أو مناقشة أشكال التعاون المناسبة.</p><div class="value-grid"><div><b>رؤيتنا</b><p>بناء هوية مهنية في قطاع الإنشاءات والتوريدات تقوم على الوضوح والجودة.</p></div><div><b>رسالتنا</b><p>تقديم إطار واضح لمجالات النشاط المسجلة ودعم علاقات تعاون جادة.</p></div></div></div>
+<div class="about-visual"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=80" alt="موقع إنشاءات توضيحي، ليس من أعمال الشركة" loading="lazy" width="550" height="350"><small>صورة توضيحية لمجال الإنشاءات</small></div>
+</div></section>
+    <section class="section section-muted" id="activities"><div class="container"><div class="section-heading"><p class="eyebrow">مجالات نشاطنا</p><h2>حلول متنوعة في قطاعات الإنشاءات والتوريدات</h2><p>تعرف على الأنشطة المسجلة للشركة والقطاعات التي تغطيها، بما يتوافق مع أي تراخيص أو متطلبات لازمة للمزاولة.</p></div><div class="services">
+<article class="service-card"><img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=850&q=80" alt="مستلزمات تعليمية، صورة توضيحية" loading="lazy" width="400" height="190"><div class="service-body"><div class="service-title"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1"/><circle cx="19" cy="20" r="1"/><path d="M2 4h3l3 12h12l2-9H6"/></svg><h3>التوريدات العمومية</h3></div><ul><li>مستلزمات تعليمية للمدارس والجامعات</li><li>مواد استهلاكية وأدوات نظافة</li><li>أثاث وتجهيزات مكتبية</li><li>مستلزمات كهربائية وإضاءة</li></ul></div></article>
+<article class="service-card"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=850&q=80" alt="مبانٍ حديثة، صورة توضيحية" loading="lazy" width="400" height="190"><div class="service-body"><div class="service-title"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V10l9-7 9 7v11M8 21v-8h8v8M3 12h18"/></svg><h3>أعمال الإنشاءات</h3></div><ul><li>المباني السكنية والإدارية</li><li>الحفر والأساسات والخرسانات</li><li>أعمال التشطيبات المتكاملة</li><li>الترميم وتجديد المنشآت</li></ul></div></article>
+<article class="service-card"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=850&q=80" alt="مخططات معمارية، صورة توضيحية" loading="lazy" width="400" height="190"><div class="service-body"><div class="service-title"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m4 21 8-18 8 18H4ZM9 14h6M12 3v18"/></svg><h3>الاستشارات الهندسية</h3></div><ul><li>دراسات الجدوى وتخطيط المشروعات</li><li>إدارة المشروعات</li><li>الإشراف الفني والهندسي</li><li>التصميم والحلول الهندسية</li></ul></div></article>
+</div><p class="fine-print">الصور للشرح فقط وليست صورًا لمشروعات منفذة. ولا تمثل الأنشطة المسجلة تعهدًا بتوافر قدرات تشغيلية حالية.</p></div></section>
+    <section class="section registrations" id="registrations"><div class="container"><div class="section-heading"><p class="eyebrow">التسجيلات والتصنيفات</p><h2>البيانات المؤسسية الأساسية</h2><p>معلومات مُقدمة من مالك الشركة، وتخضع للتحقق من المستندات وسريان القيد والتصنيف.</p></div><div class="records">
+<article><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 2h10l4 4v16H5zM15 2v5h4M8 12h8M8 16h8"/></svg><h3>السجل التجاري</h3><p>شركة ذات مسؤولية محدودة تأسست عام 2022، وتشمل أنشطتها المقاولات والتوريدات والاستشارات الهندسية.</p></article>
+<article><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 16l8-8M8.5 8.5h.01M15.5 15.5h.01"/></svg><h3>التسجيل الضريبي</h3><p>شهادة تسجيل بضريبة القيمة المضافة، مع ضرورة مراجعة الموقف الضريبي الفعلي.</p></article>
+<article><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6zM8 12l3 3 5-6"/></svg><h3>التصنيف المهني</h3><p>وفق بيانات الشركة: فئة سابعة في أعمال المباني ومحطات وشبكات المياه والصرف الصحي.</p></article>
+</div><p class="fine-print">* صلاحية التصنيفات واستمرارها بعد تغيير الملكية أو الإدارة ليست مضمونة وتحتاج للتحقق من الجهات المختصة.</p></div></section>
+    <section class="section strategic" id="strategic"><div class="container strategic-grid">
+<div><p class="eyebrow">فرص استراتيجية</p><h2>مساحة للتعاون والتوسع</h2><p>إلى جانب التعرف على مجالات الشركة، نرحب بالمحادثات الجادة بشأن التعاون التجاري والشراكات والترتيبات الاستثمارية المناسبة، وفق مراجعة قانونية ومالية عند الحاجة.</p></div>
+<div class="strategic-features"><div><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 17 6-6 4 4 8-8M15 7h6v6"/></svg><span>فرص تعاون وتوسع ملائمة</span></div><div><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6zM8 12l3 3 5-6"/></svg><span>مراجعة منظمة للمستندات والالتزامات</span></div><div><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5c0 4.9-4 8.5-9 8.5-1.5 0-3-.3-4.2-1L3 21l1.3-4C3.5 15.6 3 13.8 3 12c0-5 4-9 9-9s9 3.5 9 8.5Z"/></svg><span>تواصل أولي سهل ومباشر</span></div></div>
+</div></section>
+    <section class="section contact-section" id="contact"><div class="container contact-inner"><div><p class="eyebrow">تواصل معنا</p><h2>لنبدأ محادثة مهنية</h2><p>للاستفسار عن نطاق الأنشطة أو مناقشة فرصة تعاون، يمكنك التواصل مباشرة عبر واتساب.</p></div><a class="whatsapp-icon" href="https://wa.me/966500129829" target="_blank" rel="noopener noreferrer" aria-label="تواصل عبر واتساب"><svg viewBox="0 0 32 32" aria-hidden="true" width="27" height="27" fill="currentColor"><path d="M16 3a13 13 0 0 0-11.1 19.7 13 13 0 0 0-1 13.6L2 30l8.7-2.3A13 13 0 1 0 16 3Zm0 23.6a10.4 10.4 0 0 1-5.3-1.4l-.4-.2-5.2 1.4 1.4-5-.3-.5A10.5 10.5 0 1 1 16 26.6Zm5.8-7.8c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.1.1-.4.2-.7.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.7-1.7-2-.1-.3 0-.5.1-.6l.5-.6c.2-.2.3-.4.3-.6.1-.2 0-.5 0-.6l-1-2.4c-.3-.6-.5-.5-.8-.5h-.6c-.2 0-.6.1-.9.4s-1.1 1.1-1.1 2.7c0 1.6 1.2 3.1 1.4 3.3.2.2 2.3 3.5 5.6 4.8.8.3 1.5.5 2 .6.8.2 1.5.2 2.1.1.6-.1 1.8-.8 2.1-1.5s.3-1.4.2-1.5c-.1-.2-.3-.3-.6-.5Z"/></svg><span class="sr-only">واتساب</span></a></div></section>
   </main>
-  <footer><div class="container footer-inner"><span>© <span id="year"></span> زهوة مصر للإنشاءات والتوريدات العمومية</span><span>ZAHWAT MISR</span></div></footer>
+  <footer><div class="container footer-inner"><div class="footer-brand"><img src="assets/zahwat-misr-logo.png" alt="زهوة مصر" width="82" height="48"><span>زهوة مصر للإنشاءات والتوريدات العمومية</span></div><span>© <span id="year">2026</span> جميع الحقوق محفوظة</span></div></footer><button type="button" class="to-top" id="to-top" aria-label="العودة لأعلى">↑</button>
   <script src="script.js"></script>
 </body>
 </html>
