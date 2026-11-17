@@ -1,7 +1,19 @@
-# Zahwat Misr landing page update
+# ZAHWAT MISR — Corporate / Acquisition Website
 
-Upload **index.html** and the **assets** directory to the root of the GitHub repository (main branch). The logo is in `assets/zahwat-misr-logo.png`.
+Arabic RTL static website for Zahwat Misr LLC, founded in 2022.
 
-GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root).
+## Publish
+Upload `index.html` and the full `assets/` folder into the `main` branch of `mashraf1990/ZAHWAT-MISR`. GitHub Pages must publish from `main` / `(root)`.
 
-The Unsplash photos are illustrative and require internet connectivity. Replace with company-owned project photography once approved.
+## Information safeguards
+- Company has no documented completed projects or actual operational history.
+- Professional classifications are reported by owner; current status and portability subject to verification.
+- No financial performance, client roster, tax clearance or transferable qualifications are claimed.
+- No unapproved contact details published.
+- External Unsplash photos are illustrative only and require an internet connection.
+
+## Needed before official launch
+- Verify company legal spelling, shareholders and ownership-transfer steps with Egyptian legal counsel.
+- Add verified business phone/email.
+- Provide validated classification and tax documents securely to serious buyers.
+- Replace external images with licensed and optimized local assets.
