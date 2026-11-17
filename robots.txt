@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mashraf1990.github.io/ZAHWAT-MISR/sitemap.xml
