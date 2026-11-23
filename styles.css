@@ -34,3 +34,14 @@ img{height:auto}
  .navlinks{max-height:calc(100vh - 68px);overflow-y:auto}
 }
 @media(prefers-reduced-motion:reduce){.subservice-grid>div{transition:none}}
+
+/* SEO review: visible CTAs and mobile accessibility */
+.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:11px;margin-top:24px}
+.hero-button{display:inline-flex;justify-content:center;align-items:center;min-height:45px;padding:10px 20px;border-radius:8px;font-size:13px;font-weight:800;line-height:1.55;transition:background .15s,color .15s,transform .15s}
+.hero-button-primary{background:var(--wine);color:#fff;box-shadow:0 8px 20px #5913252b}
+.hero-button-primary:hover{background:var(--deep);color:#fff;transform:translateY(-1px)}
+.hero-button-secondary{background:#fff;color:var(--wine);border:1px solid #bd9ca7}
+.hero-button-secondary:hover{background:#f7eded}
+@media(max-width:770px){.hero-actions{margin-top:19px}.hero-button{flex:1 1 185px;min-height:47px}}
+@media(max-width:420px){.hero-actions{flex-direction:column;align-items:stretch}.hero-button{width:100%;flex:auto}}
+@media(prefers-reduced-motion:reduce){.hero-button{transition:none}.hero-button-primary:hover{transform:none}}
